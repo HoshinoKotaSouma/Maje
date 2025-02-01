@@ -14,7 +14,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Notifi = {
         Notifications = true,
         CorrectKey = "Thanks To Use Maje Hub",
-       Incorrectkey = "Pliz Check The Key",
+       Incorrectkey = "The key is incorrect",
        CopyKeyLink = "Copied to Clipboard"
       }
     }
@@ -55,7 +55,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      AddButton(Tab1o, {
      Name = "Turbo Fly",
     Callback = function()
-  https://raw.githubusercontent.com/HoshinoKotaSouma/Maje/refs/heads/main/TurboFly
   end
   })   AddButton(Tab1o, {
      Name = "2",
