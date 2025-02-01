@@ -14,7 +14,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Notifi = {
         Notifications = true,
         CorrectKey = "Thanks To Use Maje Hub",
-       Incorrectkey = "The key is incorrect",
+       Incorrectkey = "Pliz Check The Key",
        CopyKeyLink = "Copied to Clipboard"
       }
     }
@@ -31,8 +31,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "MAIN"})
-     local Tab2o = MakeTab({Name = "a"})
-     local Tab3o = MakeTab({Name = "a"})
+     local Tab2o = MakeTab({Name = "Credit"})
+     local Tab3o = MakeTab({Name = "DisCord"})
      
      
 -------TOGGLE 
@@ -47,15 +47,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "FIX LAG",
+     Name = "AntiAFK",
     Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
   end
   })
      AddButton(Tab1o, {
-     Name = "SCRIPT",
+     Name = "Turbo Fly",
     Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+  https://raw.githubusercontent.com/HoshinoKotaSouma/Maje/refs/heads/main/TurboFly
   end
   })   AddButton(Tab1o, {
      Name = "2",
